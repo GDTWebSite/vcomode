@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="My web page" />
+    <title>About us</title>
+    <link rel="shortcut icon" href="file:///C:/Users/admin/Downloads/favicon%20(2).ico" />
+
+</head>
+<style>
+.header {
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+}
+.container{
+  width:100%;
+  height:500px;
+  background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/999835399634599937/pu/img/VtNk-WODpASW2c_o.jpg);
+}
+.box{
+  width:300px;
+  height:100px;
+  background-color:white;
+  border: 1;
+  border-color: black;
+  padding-left: 200px;
+  padding-right: 200Px;
+  padding-top: 200PX;
+  padding-bottom: 200px;
+  color:white;
+
+}
+.flex-container {
+  width:1400PX;
+  height:500px;
+  margin-left:50PX;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://wallbox.ru/resize/1280x720/wallpapers/main2/201645/stil-devuska-ocki-volosy-lico-milaska-sumka-isabel.jpg);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 500px;
+  height:200px;
+  margin: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 10px;
+  margin-left: 450PX;
+  margin-top: 150PX;
+  padding-top:25px;
+
+  }
+  p.dotted {
+    outline-style: dotted;
+  }
+  .h3 {
+  font-family:  "Courier New", monospace;
+   }
+   #wordsundercontein{
+      font-family:  "Courier New", monospace;
+      font-size:15PX;
+      text-align:center;
+      margin-top: 40px;
+      text-decoration: none;
+      display: inline-grid;
+      padding-left: 10px;
+
+   }
+    #wordsundercontein:hover{
+      text-decoration: underline;
+    }
+    .div2{
+      padding-left:550px;
+      margin-bottom: 15px;
+    }
+    .sign{
+      text-decoration: none;
+    }
+    .containermain{
+      width:100%;
+      display: inline-block;
+    }
+    .container1{
+  width:100%;
+  height:250px;
+  margin-left: 100px;
+  }
+  .container2{
+  width:40%;
+  height:600px;
+  margin-left: 50px;
+  background-color: #FADBD8;
+  display: inline-block;
+  }
+  .container3{
+  width:35%;
+  height:300px;
+  margin-left: 100px;
+  background-color: #FADBD8;
+  display: inline-block;
+  margin-left: 60px;
+
+  }
+    #textheader{
+      text-align: center;
+      font-size: 30PX;
+      font-family:"Courier New", monospace;
+      padding-top: 20px;
+    }
+    #p{
+      font-size: 20px;
+      font-family: "Courier New", monospace;
+      margin-left: 25px;
+      margin-top: 5px;
+      margin-right: 25px;
+    }
+    .video{
+      width:300px;
+      height:300px;
+
+    }
+    #iframe{
+      width:90%;
+      height:280px;
+      margin-right: 10PX;
+  margin-bottom: 3PX;
+  margin-top: 3px;
+  margin-left: 25px
+    }
+    #VIDEOTEXT{
+      font-size: 15PX;
+      text-align: center;
+    }
+
+  </style>
+  <body>
+    <div class="flex-container" >
+      <div><h1 class="h3">ABOUT OUR FEATURES</h1>
+        <h2>________________________</h2>
+        <h3 class="h3">elegant online shopping store opened since 2003</h3>
+      </div>
+    </div>
+    <div>
+      <div class="div2">
+      <p id="wordsundercontein"> FASHION</p>
+      <p id="wordsundercontein"> /</p>
+      <P id="wordsundercontein"> ART </P>
+      <p id="wordsundercontein"> /</p>
+      <p id="wordsundercontein"> DESIGN</p>
+      <p id="wordsundercontein"> /</p>
+      <p id="wordsundercontein"> CASUAL</p>
+      <p id="wordsundercontein"> /</p>
+      <p id="wordsundercontein"> MODERN</p>
+      </div>
+    </div>
+    <div class="containermain">
+      <div class="container2">
+        <h1 id ="textheader">ABOUT US</h1>
+        <p id="p">Vkomode shop store, stylized as Vkomode shop, is an American fast fashion retailer headquartered in Los Angeles, California. Vkomode shop began as the store called Vkomode shop with 900 square feet (84 m2) in Highland Park, Los Angeles, in 1984, and has grown into the clothing lines Vkomode shop, XXI Vkomode shop, Love 21 and Heritage with over 700 stores in the Americas, Asia, the Middle East and the UK.
+        Vkomode shop is known for its fashionable and trendy offerings with very low pricing, while it is an epitome of the rapidly-growing fast fashion industry. The company sells accessories, beauty products, home goods and clothing for women, men and children. The company has been involved in various controversies, ranging from labor practice issues to copyright infringement accusations to religion.</p>
+      </div>
+      <div class="container3">
+      <p ID="VIDEOTEXT">OUR SHOEROOM</p>
+        <iframe id="iframe" src="https://www.youtube.com/embed/84lUhI40pCY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>

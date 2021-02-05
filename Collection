@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="My web page" />
+    <title>Collection</title>
+    <link rel="shortcut icon" href="file:///C:/Users/admin/Downloads/favicon%20(2).ico" />
+
+</head>
+<style> {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-image: url(https://static-eu.insales.ru/images/products/1/1669/166766213/20180701_122413.jpg);
+    padding: 20px;
+    text-align: center;
+    height:200px;
+    width:100%;
+    padding-top:40px;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 18px;
+  padding-right: 36px;
+  padding-left: 36px;
+  text-align:center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.box{
+   width: 220px;
+   height:50px;
+  border: 15px solid #9e826a;
+  padding: 20px;
+  margin: 10px;
+  font-family:  "Copperplate", fantasy;
+}
+#image{
+  width:20%;
+  height:200px;
+  padding-left:20px;
+  padding-right:20px;
+  display:inline-block;
+}
+.divstyle{
+  padding-right: 20pX;
+  padding-left: 20px;
+}
+.container1{
+  width:100%;
+  height:500px;
+  padding-left: 43px;
+
+    }
+
+
+.image4{
+  width:20%;
+    height:400px;
+    margin-left: 20PX;
+    background-image: url(http://luxusmart.com/wa-data/public/shop/products/82/03/210382/images/257522/257522.970.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-right: 20px;
+}
+.image1{
+  width:20%;
+    height:400px;
+    margin-left: 20PX;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2019/02/Zara-Spring-Summer-2019-Campaign07.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 25px;
+}
+.image2{
+  width:20%;
+    height:400px;
+    margin-left: 20PX;
+    background-image: url(http://booker-media.s3.amazonaws.com/Library/1923/20190222_133944261_M.JPG);
+    background-size: cover;
+    display: inline-block;margin-right: 25px;
+
+}
+.image3{
+  width:20%;
+    height:400px;
+    margin-left: 20PX;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2019/03/Zara-Collection-Spring-Summer-2019-Campaign14.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 25px;
+}
+.image5{
+  width:20%;
+    height:400px;
+    margin-left: 28PX;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/igr/images/ama/fgr/2010/11/zaralb11.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 27px;
+}
+.image6{
+  width:20%;
+    height:400px;
+    margin-left: 40PX;
+    background-image: url(https://i.pinimg.com/originals/7a/dc/8b/7adc8bbcaa0c12e457c7033b9bb0c04c.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 27px;
+}
+.image7{
+  width:20%;
+    height:400px;
+    margin-left:28PX;
+    background-image: url(https://stylelifeother.files.wordpress.com/2012/10/zara-weave-coat1.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 27px;
+}
+.image8{
+  width:20%;
+    height:400px;
+    margin-left: 28PX;
+    background-image: url(https://i.pinimg.com/originals/61/09/ab/6109ab2bdae3a9fc71a61cdf721db114.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 27px;
+}
+.image9{
+  width:20%;
+    height:400px;
+    margin-left: 32pX;
+    background-image: url(https://i.pinimg.com/originals/23/8b/bc/238bbc2704b3acbc209a7fb56f0fc02b.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 30px;
+    padding-right: 20PX
+}
+.image10{
+  width:20%;
+    height:400px;
+    margin-left: 32PX;
+    background-size: cover;
+    background-image: url(https://modacruzs3.mncdn.com/mnresize/640/-/raw-item/fb3b4f72-17aa-436f-bbac-ff37671a9be6.jpg);
+    display: inline-block;margin-right: 30px;
+}
+.image11{
+  width:20%;
+    height:400px;
+    margin-left: 32PX;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2016/11/Zara-Evening-2016-Clothing-Collection07.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 30px;
+}
+.image12{
+  width:20%;
+    height:400px;
+    margin-left: 32PX;
+    background-image: url(https://i.pinimg.com/originals/dc/c8/9d/dcc89dbf270b2532d45719b40296cba2.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 30px;
+}
+.image13{
+  width:20%;
+    height:400px;
+    margin-left: 28PX;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2019/03/Zara-Collection-Spring-Summer-2019-Campaign02.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 20px;
+}
+.image14{
+  width:20%;
+    height:400px;
+    margin-left: 28PX;
+    background-image: url(https://i.mdel.net/i/db/2019/3/1096281/1096281-800w.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 20px;
+}
+.image15{
+  width:20%;
+    height:400px;
+    margin-left: 28PX;
+    background-image: url(https://www.fashiongonerogue.com/wp-content/uploads/2019/03/Zara-Collection-Spring-Summer-2019-Campaign09.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 20px;
+}
+.image16{
+  width:20%;
+    height:400px;
+    margin-left: 28PX;
+    background-image: url(https://i.mdel.net/i/db/2019/3/1096281/1096281-800w.jpg);
+    background-size: cover;
+    display: inline-block;margin-right: 20px;
+}
+
+</style>
+<body>
+
+<div class="header">
+  <h1>COLLECTION</h1>
+</div>
+<div class="row">
+  <div class="column">
+        <div class="box">DRESS</div>
+  </div>
+
+  <div class="column">
+      <div class="box">JACKET</div>
+
+  </div>
+
+  <div class="column">
+      <div class="box">SUIT</div>
+
+  </div>
+   <div class="column">
+      <div class="box">HOLE LOOK</div>
+  </div>
+</div>
+</body>
+<body>
+  C
+  <div class="container1">
+    <div class="image1"></div>
+    <div class="image6"></div>
+    <div class="image10"></div>
+    <div class="image14"></div>
+  </div>
+  <div class="container1">
+    <div class="image2"></div>
+    <div class="image7"></div>
+    <div class="image11"></div>
+    <div class="image15"></div>
+  </div>
+  <div class="container1">
+    <div class="image3"></div>
+    <div class="image8"></div>
+    <div class="image12"></div>
+    <div class="image16"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Vkomode</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" type="text/css" href="myStyle.css" />
+	<link rel="shortcut icon" href="file:///C:/Users/admin/Downloads/favicon%20(2).ico" />
+</head>
+<style>
+<body> {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	/* Ширина слоя */
+	margin: 0 auto;
+	/* Выравнивнить весь блок по центру */
+	background: #faf0e6;
+	/* Цвет фона левой колонки */
+}
+
+.header {
+	height: 60PX;
+	text-align: center;
+	padding-top: 5px;
+	/* Отступы внутри блока шапки */
+	background: #960018;
+	/* Цвет фона шапки */
+	color: #fff;
+	/* Цвет текста */
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #262626;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #2f2f30;
+}
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #dabdab;
+	float: left;
+	width: 195px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.footer1 {
+	background-color: #fffdd0;
+	text-align: center;
+	padding: 10px;
+}
+
+.footer2 {
+	background-color: #F5DEB3;
+	text-align: center;
+	padding: 10px;
+	height: 200px;
+	width: 100%;
+}
+
+.close {
+	width: 300px;
+	height: 300px;
+	background: none;
+	position: relative;
+	animation-name: mymove1;
+	animation-duration: 5s;
+	padding-bottom: 50px;
+	padding-left: 20px;
+}
+
+@keyframes mymove1 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: 300px;
+	}
+}
+
+.font {
+	font-family: Helvetica, Arial, sans-serif
+}
+
+#example1 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px;
+}
+</style>
+<div class="container">
+	<div class="header">VKOMODE ONLINE SHOP STORE</div>
+</div>
+</body>
+<ul>
+	<li><a href="file:///C:/Users/admin/Desktop/Gulseza/Midterm/Sign%20Up" target="_blank"> Sign up</a></li>html
+	<li><a href="file:///C:/Users/admin/Desktop/Gulseza/Midterm/Collection" target="_blank"> Colllection</a></li>
+	<li><a href="file:///C:/Users/admin/Desktop/Gulseza/Midterm/About%20us" target="_blank"> About us</a> </li>
+	<li><a href=""> Contact:</a></li>
+	<li><a href="#5thpage">+45646846513251565</li>
+</ul>
+
+<div class="gallery">
+  <a target="_blank" href="https://i.pinimg.com/736x/56/c4/94/56c4941075e04c682c616166113d0c5e.jpg">
+    <img src="https://i.pinimg.com/736x/56/c4/94/56c4941075e04c682c616166113d0c5e.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+		<div class="desc">Coat with white bag     Cost: $140</div>
+		</div>
+		<div class="gallery">
+			<a target="_blank" href="https://naget.ru/wp-content/uploads/2017/04/trikotazhnyj_vesennij_megatrend_modnye_tendencii_na_vesnu_i_leto_2017_goda__naget_ru-6.jpg">
+			<img src="https://naget.ru/wp-content/uploads/2017/04/trikotazhnyj_vesennij_megatrend_modnye_tendencii_na_vesnu_i_leto_2017_goda__naget_ru-6.jpg" alt="Forest" width="600" height="400"> </a>
+			<div class="desc">White Dress with Coat    Cost: $ 250</div>
+		</div>
+		<div class="gallery">
+			<a target="_blank" href="https://i.pinimg.com/originals/80/11/5b/80115b822bbbd478db73fcf3700b0399.jpg"> <img src="https://i.pinimg.com/originals/80/11/5b/80115b822bbbd478db73fcf3700b0399.jpg" alt="Northern Lights" width="600" height="400"> </a>
+			<div class="desc">Dress with black shoes     Cost: $115</div>
+		</div>
+		<div class="gallery">
+			<a target="_blank" href="https://sun9-46.userapi.com/_FEs-UCYGKaBlxQFwkr8CJ-7sOOYFihbVc8pEg/KmC-PFUa2O4.jpg"> <img src="https://sun9-46.userapi.com/_FEs-UCYGKaBlxQFwkr8CJ-7sOOYFihbVc8pEg/KmC-PFUa2O4.jpg" alt="Mountains" width="600" height="400"> </a>
+			<div class="desc">Black Jacket with Bag Cost: $90</div>
+		</div>
+		<div class="gallery">
+			<a target="_blank" href="https://i.pinimg.com/originals/b1/36/c3/b136c343afc26cef3f794960757c5312.jpg"> <img src="https://i.pinimg.com/originals/b1/36/c3/b136c343afc26cef3f794960757c5312.jpg" alt="Forest" width="600" height="400"> </a>
+			<div class="desc">Grey suit with shoes    Cost: $130</div>
+		</div>
+		<div class="gallery">
+			<a target="_blank" href="https://static.tildacdn.com/tild3734-6265-4632-a666-626265346134/lookbook_A19_55.jpg"> <img src="https://static.tildacdn.com/tild3734-6265-4632-a666-626265346134/lookbook_A19_55.jpg" alt="Northern Lights" width="600" height="400"> </a>
+			<div class="desc">Blazer with grey slacks    Cost: $205</div>
+		</div>
+		<div class="gallery">
+			<a target="_blank" href="https://static.zara.net/photos///2021/V/0/1/p/8825/332/706/2/w/1280/8825332706_1_1_1.jpg?ts=1609148952810"> <img src="https://static.zara.net/photos///2021/V/0/1/p/8825/332/706/2/w/1280/8825332706_1_1_1.jpg?ts=1609148952810" alt="Mountains" width="600" height="400"> </a>
+			<div class="desc">Jacket, pants and shoes  Cost: $220</div>
+		</div>
+		</body>
+
+		<body>
+			<div class="footer1">
+				<h2>NEW COLLECTION</h2> </div>
+			<div class="footer2">
+				<h2 class="font">MODERN NEW ONLINIE COMFORTABLE STORE</h2>
+				<div id="example1">
+					<p>In our store you can find that close that you want in good price, join us and buy clothes online.</p>
+				</div>
+		</body>
+
+</html>
